@@ -5,3 +5,16 @@
 a {
   text-decoration: none;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  display: flex;
+
+  h1 {
+    margin: auto;
+    font-size: 4rem;
+  }
+}
