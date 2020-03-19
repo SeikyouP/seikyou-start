@@ -1,18 +1,44 @@
 @import 'reset';
 @import 'animate';
 @import 'hamburgers';
+@import 'config';
 
 a {
   text-decoration: none;
 }
 
+i {
+  box-sizing: content-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  color: $black;
+}
+
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: $font-stack;
+  overflow: auto;
+  background-color: $white;
+}
+
+.container {
+  max-width: $container-width;
+  margin: auto;
 }
 
 section {
   display: flex;
-  height: 100vh;
+
+  &:first-child {
+    height: 100vh;
+  }
 
   h1 {
     margin: auto;
