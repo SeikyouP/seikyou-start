@@ -41,7 +41,7 @@ $font-serif-stack-2: initial;
 
 // Functions
 @function set-color($color) {
-  @if (lightness($color) > 50) {
+  @if (lightness($color) > 70) {
     @return $black;
   } @else {
     @return $white;
