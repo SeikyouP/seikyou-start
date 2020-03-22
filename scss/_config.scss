@@ -17,6 +17,9 @@ $darker-color: #222;
 $white: #fff;
 $black: #000;
 
+// Default Background Color
+$defaut-color: transparent;
+
 // Set Color Lightness
 $primary-color-light: lighten($primary-color, 10%);
 $secondary-color-light: lighten($secondary-color, 10%);
@@ -36,14 +39,20 @@ $font-sans-stack-1: Arial, Helvetica, sans-serif;
 $font-serif-stack-1: 'Times New Roman', Times, serif;
 
 // Font Stacks (Goggle Fonts) -- 2
-$font-sans-stack-2: 'Nunito', sans-serif;
+$font-sans-stack-2: 'Nunito' 'Open Sans', 'Lato', 'Exo 2', 'Montserrat', sans-serif;
 $font-serif-stack-2: initial;
 
-// Functions
+// Functions (Set Dynamic Text Color)
 @function set-color($color) {
-  @if (lightness($color) > 70) {
+  @if (lightness($color) >= 45 or $color == transparent) {
     @return $black;
   } @else {
     @return $white;
   }
+}
+
+// Mixins (Set Dynamic Text Color)
+@mixin dynamic-color($color) {
+  background-color: $defaut-color;
+  color: set-color($defaut-color);
 }

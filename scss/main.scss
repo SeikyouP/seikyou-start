@@ -19,13 +19,13 @@ h5,
 h6,
 a,
 p {
-  color: $black;
+  color: set-color($defaut-color);
 }
 
 body {
   font-family: $font-stack;
   overflow: auto;
-  background-color: $white;
+  @include dynamic-color($defaut-color);
 }
 
 .container {
