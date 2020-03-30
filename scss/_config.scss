@@ -8,17 +8,31 @@ $second-accent: transparent;
 $third-accent: transparent;
 $fourth-accent: transparent;
 
-// Other Colors
+// Light/Dark Colors
 $light-color: #f2f2f2;
+$gray-color: #888;
 $dark-color: #333;
 $darker-color: #222;
 
 // Neutral Colors
-$white: #fff;
-$black: #000;
+$white: white;
+$gray: gray;
+$black: black;
 
 // Default Background Color
 $defaut-color: transparent;
+
+// Set Default Shadow
+$default-shadow: 2px 2px 8px #888888;
+
+// Set Alternative Shadow
+$alt-shadow: 2px 2px 4px #888888;
+
+// Set Default Inset Shadow
+$alt-shadow: inset 2px 2px 4px #888888;
+
+// Set Alternative Inset Shadow
+$alt-shadow: inset 2px 2px 4px #888888;
 
 // Set Color Lightness
 $primary-color-light: lighten($primary-color, 10%);
@@ -28,19 +42,24 @@ $secondary-color-light: lighten($secondary-color, 10%);
 $primary-color-dark: darken($primary-color, 10%);
 $secondary-color-dark: darken($secondary-color, 10%);
 
-// Set Container Width
+// Set Default Container Width
 $container-width: 1080px;
 
+// Set Alternative Container Width
+$container-width-alt: 960px;
+
+// Set Header Container Width
+$header-width: 1440px;
+
+// Set Footer Container Width
+$footer-width: 1440px;
+
 // Font Stacks (Default)
-$font-stack: 'Nunito', sans-serif;
+$font-stack: 'Nunito' 'Open Sans', 'Lato', 'Exo 2', 'Montserrat', sans-serif;
 
-// Font Stacks (Web Safe Fonts) -- 1
-$font-sans-stack-1: Arial, Helvetica, sans-serif;
-$font-serif-stack-1: 'Times New Roman', Times, serif;
-
-// Font Stacks (Goggle Fonts) -- 2
-$font-sans-stack-2: 'Nunito' 'Open Sans', 'Lato', 'Exo 2', 'Montserrat', sans-serif;
-$font-serif-stack-2: initial;
+// Font Stacks (Web Safe Fonts)
+$font-stack-serif: 'Times New Roman', Times, serif;
+$font-stack-sans: Arial, Helvetica, sans-serif;
 
 // Functions (Set Dynamic Text Color)
 @function set-color($color) {
