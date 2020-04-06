@@ -22,6 +22,13 @@ $black: black;
 // Default Background Color
 $defaut-color: transparent;
 
+// Font Stacks (Default)
+$font-stack: 'Nunito', 'Open Sans', 'Lato', 'Exo 2', 'Montserrat', sans-serif;
+
+// Font Stacks (Web Safe Fonts)
+$font-stack-serif: 'Times New Roman', Times, serif;
+$font-stack-sans: Arial, Helvetica, sans-serif;
+
 // Set Default Shadow
 $default-shadow: 2px 2px 8px #888888;
 
@@ -53,13 +60,6 @@ $header-width: 1440px;
 
 // Set Footer Container Width
 $footer-width: 1440px;
-
-// Font Stacks (Default)
-$font-stack: 'Nunito', 'Open Sans', 'Lato', 'Exo 2', 'Montserrat', sans-serif;
-
-// Font Stacks (Web Safe Fonts)
-$font-stack-serif: 'Times New Roman', Times, serif;
-$font-stack-sans: Arial, Helvetica, sans-serif;
 
 // Functions (Set Dynamic Text Color)
 @function set-color($color) {

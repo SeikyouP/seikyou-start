@@ -35,13 +35,18 @@ body {
 
 section {
   display: flex;
+  flex-direction: column;
 
   &:first-child {
     height: 100vh;
   }
 
-  h1 {
+  .start {
     margin: auto;
-    font-size: 4rem;
+    text-align: center;
+
+    h1 {
+      font-size: 4rem;
+    }
   }
 }
