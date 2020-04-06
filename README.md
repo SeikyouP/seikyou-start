@@ -1,1 +1,1 @@
-# seikyoup-dev-kit
+# seikyoup-start
