@@ -2,36 +2,11 @@
 @import 'animate';
 @import 'hamburgers';
 @import 'config';
-
-a {
-  text-decoration: none;
-}
-
-i {
-  box-sizing: content-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-p {
-  color: set-color($defaut-color);
-}
-
-body {
-  font-family: $font-stack;
-  overflow: auto;
-  @include dynamic-color($defaut-color);
-}
-
-.container {
-  max-width: $container-width;
-  margin: auto;
-}
+@import 'global';
+@import 'modal';
+@import 'form';
+@import 'buttons';
+@import 'header';
 
 section {
   display: flex;
@@ -54,3 +29,8 @@ section {
     }
   }
 }
+
+@import 'sidebar';
+@import 'footer';
+@import 'tablet';
+@import 'mobile';
