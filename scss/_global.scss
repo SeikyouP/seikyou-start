@@ -1,9 +1,16 @@
+// Not included in 'reset.scss', so I added it here
 a {
   text-decoration: none;
 }
 
+// Using 'border-box' for font-awesome icons will mess them up
 i {
   box-sizing: content-box;
+}
+
+// Feel free to change this to your liking (1.5 is default)
+p {
+  line-height: 1.5;
 }
 
 h1,

@@ -27,6 +27,29 @@ section {
     h2 {
       font-size: 2.5rem;
     }
+
+    // Mobile-first or Desktop-first (take your pick)
+    // Hint: Use min-width for mobile-first
+    // Hint: Use max-width for desktop-first
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 3rem;
+      }
+
+      h2 {
+        font-size: 2.25rem;
+      }
+    }
+
+    @media (max-width: 640px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        font-size: 1.75rem;
+      }
+    }
   }
 }
 
