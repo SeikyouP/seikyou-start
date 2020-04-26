@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/SeikyouP/seikyoup-start/issues"
   },
-  "homepage": "https://github.com/SeikyouP/seikyoup-start#readme"
+  "homepage": "https://github.com/SeikyouP/seikyoup-start#readme",
+  "dependencies": {
+    "gsap": "^3.2.6",
+    "jquery": "^3.5.0"
+  }
 }
