@@ -59,9 +59,9 @@ $footer-width: 1080px;
 // Functions (Set Dynamic Text Color)
 @function set-color($color) {
   @if (lightness($color) >= 45 or $color == transparent) {
-    @return $black;
+    @return black;
   } @else {
-    @return $white;
+    @return white;
   }
 }
 
