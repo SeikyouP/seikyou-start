@@ -9,15 +9,10 @@ $third-accent: transparent;
 $fourth-accent: transparent;
 
 // Light/Dark Colors
-$light-color: #f2f2f2;
-$gray-color: #888;
-$dark-color: #333;
-$darker-color: #222;
-
-// Neutral Colors
-$white: white;
-$gray: gray;
-$black: black;
+$light: #f2f2f2;
+$gray: #888;
+$dark: #333;
+$darker: #222;
 
 // Default Background Color
 $defaut-color: transparent;
@@ -30,16 +25,16 @@ $font-stack-serif: 'Times New Roman', Times, serif;
 $font-stack-sans: Arial, Helvetica, sans-serif;
 
 // Set Default Shadow
-$default-shadow: 2px 2px 8px #888888;
+$shadow: 2px 2px 8px #888888;
 
 // Set Alternative Shadow
-$alt-shadow: 2px 2px 4px #888888;
+$shadow-alt: 2px 2px 4px #888888;
 
 // Set Default Inset Shadow
-$alt-shadow: inset 2px 2px 4px #888888;
+$shadow-inset: inset 2px 2px 4px #888888;
 
 // Set Alternative Inset Shadow
-$alt-shadow: inset 2px 2px 4px #888888;
+$shadow-inset-alt: inset 2px 2px 8px #888888;
 
 // Set Color Lightness
 $primary-color-light: lighten($primary-color, 10%);
@@ -56,10 +51,10 @@ $container-width: 1080px;
 $container-width-alt: 960px;
 
 // Set Header Container Width
-$header-width: 1440px;
+$header-width: 1080px;
 
 // Set Footer Container Width
-$footer-width: 1440px;
+$footer-width: 1080px;
 
 // Functions (Set Dynamic Text Color)
 @function set-color($color) {

@@ -9,12 +9,6 @@
   }
 }
 
-.btn-primary {
+.btn {
   @extend %btn;
-  background-color: $primary-color-light;
-}
-
-.btn-secondary {
-  @extend %btn;
-  background-color: $secondary-color-light;
 }
