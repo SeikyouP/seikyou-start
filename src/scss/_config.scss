@@ -1,15 +1,14 @@
 // Main Colors
-$primary-color: transparent;
-$secondary-color: transparent;
+$main-color: transparent;
+$alt-color: transparent;
 
 // Color Accents (if any)
-$first-accent: transparent;
-$second-accent: transparent;
-$third-accent: transparent;
-$fourth-accent: transparent;
+$main-accent: transparent;
+$alt-accent: transparent;
 
 // Light/Dark Colors
-$light: #f2f2f2;
+$lighter: #f2f2f2;
+$light: #bbb;
 $gray: #888;
 $dark: #333;
 $darker: #222;
@@ -19,6 +18,8 @@ $defaut-color: transparent;
 
 // Font Stacks (Default)
 $font-stack: 'Nunito', 'Open Sans', 'Lato', 'Exo 2', 'Montserrat', sans-serif;
+$font-stack-alt: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
+  sans-serif;
 
 // Font Stacks (Web Safe Fonts)
 $font-stack-serif: 'Times New Roman', Times, serif;
@@ -37,12 +38,10 @@ $shadow-inset: inset 2px 2px 4px #888888;
 $shadow-inset-alt: inset 2px 2px 8px #888888;
 
 // Set Color Lightness
-$primary-color-light: lighten($primary-color, 10%);
-$secondary-color-light: lighten($secondary-color, 10%);
+$light-color: lighten($main-color, 10%);
 
 // Set Color Darkness
-$primary-color-dark: darken($primary-color, 10%);
-$secondary-color-dark: darken($secondary-color, 10%);
+$dark-color: darken($main-color, 10%);
 
 // Set Default Container Width
 $container-width: 1080px;
