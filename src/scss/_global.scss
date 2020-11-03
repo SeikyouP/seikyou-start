@@ -1,4 +1,8 @@
 // Not included in 'reset.scss', so I added it here
+* {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
 }
