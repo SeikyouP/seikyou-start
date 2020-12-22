@@ -21,33 +21,54 @@ section {
     text-align: center;
 
     h1 {
+      font-weight: bold;
       font-size: 4rem;
+      margin: 0;
     }
 
-    h2 {
-      font-size: 2.5rem;
+    p {
+      font-size: 2rem;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0;
+      margin-top: 2rem;
+    }
+
+    li {
+      margin: 1rem;
+
+      a {
+        border: 2px solid black;
+        border-radius: 0.25rem;
+        display: block;
+        font-size: 1.25rem;
+        padding: 1rem 1.5rem;
+        background: white;
+        transition: background 250ms;
+        font-weight: bold;
+
+        &:hover {
+          background: $light;
+        }
+      }
     }
 
     // Mobile-first or Desktop-first (take your pick)
     // Hint: Use min-width for mobile-first
     // Hint: Use max-width for desktop-first
     @media (max-width: 768px) {
-      h1 {
-        font-size: 3rem;
-      }
-
-      h2 {
-        font-size: 2.25rem;
+      p {
+        font-size: inherit;
       }
     }
 
     @media (max-width: 640px) {
-      h1 {
-        font-size: 2.5rem;
-      }
-
-      h2 {
-        font-size: 1.75rem;
+      p {
+        font-size: inherit;
       }
     }
   }
